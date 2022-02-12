@@ -138,7 +138,8 @@ public class TurretController : MonoBehaviour, ITurret
         }
         initialGunRotation = gunObject.transform.rotation;
         enemiesInRange = new Queue<GameObject>();
-        timeBetweenShots = 1f;
+        if (timeBetweenShots <= 0)
+            timeBetweenShots = 1f;
         shootDelayer = new WaitForSeconds(timeBetweenShots);
         
     }
