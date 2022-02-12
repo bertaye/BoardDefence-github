@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b07abee8e8690445ba1bf224d74eeff, type: 3}
+  m_Name: Turret_2 Data
+  m_EditorClassIdentifier: 
+  damage: 5
+  range: 2
+  cooldownTime: 4
+  attackDirection: 0
+  turretBullet: {fileID: 11400000, guid: 8123ed7123c1a32418e0b64c088b7a68, type: 2}
+  turretPoolable: {fileID: 11400000, guid: 1082651da6c60694d9a4782f34aafba5, type: 2}
