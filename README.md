@@ -1,5 +1,8 @@
 # DESIGNER'S MANUAL
-
+# **HOW TO PLAY GAME**
+ ```
+  Open StartScene, hit Play button in editor.
+```
 ## **HOW TO ADD A NEW ENEMY/TOWER(turret)?**
 ```
   You simply go to Game Data/Enemies folder; create New EnemyData; then do the same for creating a PoolableObject of the Enemy.
