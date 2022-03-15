@@ -1,13 +1,21 @@
+# GAME PLAY
+
+
+
+https://user-images.githubusercontent.com/39909689/158416421-398d2bd0-ed1f-407f-8de0-612c4f10754c.mp4
+
+
+
 # DESIGNER'S MANUAL
 # **HOW TO PLAY GAME**
  ```
   Open StartScene, hit Play button in editor.
 ```
-## **HOW TO ADD A NEW ENEMY/TOWER(turret)?**
+## **HOW TO ADD A NEW ENEMY OR TOWER(turret)?**
 ```
   You simply go to Game Data/Enemies folder; create New EnemyData; then do the same for creating a PoolableObject of the Enemy.
   Then open de ObjectPooler prefab, add the PoolableObject of the Enemy. 
-  Follow same steps for the Tower(Turret).
+  Follow same steps for the Tower(Turret). Range of the turret will calculated by considering your input and a collider will created during instantiation phase of the game.
  ```
 ## **HOW TO DESIGN LEVELS**
 ``` 
